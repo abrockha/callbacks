@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    background-image: url(https://demmelearning.com/wp-content/uploads/2020/06/Abacus-and-Algorithm-A-History-of-Math.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+}
+form {
+    display: inline-block;
+    color:white;
+    background-color: brown;
+}
+
+p{
+    text-align: center;
+    color:white;
+}

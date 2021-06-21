@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working on Callbacks</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <p>This page performs a simple calculation on two numbers.</p>
+    <form id="center">
+        
+        <label for="operation">Pick which operation to perform:</label>
+
+        <select name="operation" id="operation">
+            <option value="Addition">+ Addition</option>
+            <option value="Subtraction">- Subtraction</option>
+            <option value="Multiplication">* Multiplication</option>
+            <option value="Division">/ Division</option>
+            <option value="Modulus">% Modulus</option>
+        </select>
+        </div>
+        <div>
+        <label for="num1">Enter the first number: </label>
+        <input type="text" id="num1" name="num1">
+        </div>
+        <div>
+        <label for="num2">Enter the second number: </label>
+        <input type="text" id="num2" name="num2">
+        </div>
+        <div>
+            <label for="total" id="total">Total: </label>
+        </div>
+        <button type="button" id="calculate">Calculate</button>
+    </form>
+
+    <script src="callback.js"></script>
+</body>
+</html>
